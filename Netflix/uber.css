@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main1{
+    display: flex;
+    align-items: center;
+    /* text-decoration: none; */
+    border: 1px solid rgb(255, 255, 255);
+    /* padding: 20px 200px; */
+    /* padding-right: 200px; */
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imgs{
+    display: flex;
+    /* border-right: 1px solid black; */
+}
+.img1{
+    border-right: 1px solid rgb(126, 124, 124);
+    padding: 0px 10px;
+  
+}
+.anc a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    
+}
+.anc a:hover{
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(101, 98, 98);
+    text-decoration: underline;
+    
+}
+.anc{
+    margin:0px 250px;
+}
+.main2{
+    padding: 50px;
+    background-color: 1px solid black;
+    background-image: url(audi\ back.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}

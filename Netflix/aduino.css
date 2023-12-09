@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px 10px;
+}
+
+.anc a {
+    text-decoration: none;
+    /* align-items: center;  */
+    color: rgb(89, 84, 84);
+    margin: 20px;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: right;
+    padding-right: 40%;
+}
+
+.img {
+    border: none;
+    background-color: white;
+    padding-right: 10%;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.img button {
+    border: none;
+    background-color: white;
+    align-items: center;
+}
+
+.main2 {
+    background-color: 1px solid black;
+    background-image: url(audi\ back.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1600px;
+    height: 700px;
+}
+
+.para {
+     /* border: 1px solid white;  */
+    color: rgb(228, 223, 223);
+    width: 600px;
+    height: 300px;
+    /* padding: 50px 50px;  */
+    padding: 3% 8%;
+
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    
+}
+
+ h2 {
+    line-height: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-size:x-large;
+    /* border: 1px solid white; */
+    width: 600px;
+}
+
+.links {
+    display: flex;
+    /* margin: 2%; */
+    margin-top: 2%;
+
+}
+
+.in1 button {
+    padding: 20px 20px;
+    width: 250px;
+    margin-left: 2%;
+}
+
+.in2 button {
+    color: white;
+    padding: 20px 50px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 3%;
+}
+.in3:hover {
+    padding: 20px 20px;
+    width: 250px;
+
+    margin-left: 2%;
+    background-color:rgb(145, 141, 141);
+    border: none;
+    
+}
+
+.in4:hover{
+    color: rgb(109, 104, 104);
+    padding: 20px 50px;
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 3%;
+    border: 1px solid rgb(109,104,104);
+}
+.cars
+{
+    display: flex;
+    padding-top: 20px;
+}
+.cars p{
+    text-align: center;
+}
+.car1:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.car2:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.car3:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.car4:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.car5:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+/* .car6:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+} */
+.main3{
+    /* border: 1px solid black; */
+    padding: 25px 25px;
+    padding-bottom: 70px;
+}
+.main4{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 50px 200px;
+   
+}
+.par1{
+    /* border: 1px solid black; */
+    padding: 20px  40px;
+}
+.par1 button{
+    width: 240px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.par1 h1{
+    font-size: 50px;
+}
+.main5{
+    background-image: url(audiback1.jpg);
+    background-position: center;
+    background-size: cover;
+   border: 2px solid rgb(255, 255, 255);
+    height:1070px ;
+}
+.box{
+    /* border: 1px solid rgb(18, 14, 14); */
+    padding: 20px 50px;
+    background-color: white;
+    width: 450px;
+    /* margin: 200px 50px; */
+    margin-top: 250px; 
+   margin-left: 100px;
+}
+.box p{
+    margin-top: 20px;
+    line-height: 25px;
+    color: rgb(94, 93, 93);
+}
+.tre{
+    display: flex;
+    /* margin-left: 50px; */
+    padding: 30px 0px;
+}
+.btn1  button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    height: 50px;
+    margin-right: 10px;
+}
+.btn2 button{
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    color: rgb(83, 81, 81);
+    background-color: transparent;
+    border: 1px solid black;
+}

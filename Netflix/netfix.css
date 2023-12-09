@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.netflix{
+    background-image: url(nte.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;/*viewport height*/
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 10px 200px 0px;
+}
+#but1{
+background-color:rgba(108, 103, 103, 0.525);
+color: white;
+padding: 8px 30px;
+font-size: 16px;
+border: 1px solid gainsboro;
+border-radius: 4px;
+}
+#but2{
+background-color: red;
+color: white;
+border: none;
+padding: 8px 20px;
+font-size: 16px;
+border-radius: 4px;
+}
+.intro{
+    text-align: center;
+    color: white;
+   
+    margin-top: 12%;
+}
+.form input{
+    width: 450px;
+    height: 50px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+}
+.form button{
+    padding: 18px 20px ;
+    color: white;
+    background-color: red;
+    font-size: 16px;
+}
+.form button:hover{
+    background-color: rgb(128, 4, 4);
+}
+.form input::placeholder{
+    color: white;
+}
+.desc1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.desc2{
+    margin-bottom: 13px;
+    font-size:25px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

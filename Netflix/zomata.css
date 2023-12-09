@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: okra Arial, Helvetica, sans-serif;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.426), rgba(0, 0, 0, 0.279)),url(background.webp);
+    height: 57vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 50px 0px;
+}
+#advertise{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+#loginbtn{
+    color: #FFFFFF;
+    font-size: 18px;
+border: 1px solid #FFFFFF;
+text-decoration: none;
+padding: 6px 15px;
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.101);
+}
+#create{
+    color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #2781e7;
+}
+.intro{
+    color: #FFFFFF;
+}
+.intro_container{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    margin: 15px 0px;
+}
+.title h1{
+    font-size: 36px;
+    line-height: 50px;
+}
+.desc{
+    margin-bottom: 15px;
+}
+.desc p{
+    font-size: 18px;
+}
+
+#btn1{
+    color: #FFFFFF;
+    border: none;
+    background-color: #2781e7;
+    padding: 14px 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 12px;
+}
+#btn2{
+    color: black;
+    border: none;
+    background-color: white;
+    padding: 14px 35px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.help{
+    margin-top: 9px;
+}
+.help p{
+    font-size: 15px;
+}
+.online-order-container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff7f7;
+    padding-bottom: 10px;
+}
+.online{
+    background-color: white;
+    padding: 40px;
+    transform: translateY(-30px);
+    border-radius: 7px;
+    width: 660px;
+    margin: 10px;
+    
+}
+.order-title{
+   text-align: center; 
+   line-height: 50px;
+}
+.list{
+    display: flex;
+    justify-content: left;
+
+}
+.list ul{
+    list-style-type: '✅';
+}
+
+ .list1,.list2{
+    margin-left: 50px;
+}
+.list1 li ,.list2 li{
+    margin: 12px;
+    line-height: 50px;
+} 
+.partnerintro{
+    text-align: center;
+    padding: 20px 0px;
+}
+.partnerintro p{
+    padding: 0px 300px;
+    font-size: 18px;
+    color: rgb(47, 45, 45);
+    line-height: 30px; 
+   /* it used to space between the the lines */
+   margin-top: 20px;
+}
+.partnerinfo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.partnerinfodiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 15px;
+    box-shadow: 2px 4px 15px rgb(99, 98, 98);
+    width: 280px;
+    padding: 12px  30px;
+    border-radius: 10px;
+}
+.p1{
+    color: blue;
+    font-size: 24px;
+   
+}
+.p2{
+    color: black;
+    font-size: 18px;
+    
+}
+.instruction{
+    background-image: url(backgro.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    background-color: rgb(143, 137, 137);
+}
+.instructiontitle{
+    text-align: center;
+    padding: 60px 0px;
+}
+.step{
+    display: flex;
+    justify-content: center;
+}
+.stepdiv{
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px 10px;
+    width: 250px;
+    height: 300px;
+    padding: 40px 20px;
+}

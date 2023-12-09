@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="kfc.css"> -->
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .main1 {
+            display: flex;
+            /* border: 1px solid rgb(0, 0, 0);  */
+            justify-content: space-between;
+            padding: 0px 150px;
+            width: 1250px;
+            position: sticky;
+            top: 0px;
+            background-color: white;
+        }
+
+        .div1 {
+            display: flex;
+            align-items: center;
+            /* position: sticky;
+ top: 0px; */
+        }
+
+        .div2 {
+            display: flex;
+            align-items: center;
+            /* text-decoration: none; */
+        }
+
+        .div1 a {
+            text-decoration: none;
+            margin: 20px;
+            color: black;
+        }
+
+        .div2 a {
+            text-decoration: none;
+            margin: 20px;
+            color: black;
+        }
+
+        .main2 {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            padding: 10px;
+            height: 50px;
+        }
+
+        .main2 button {
+            background-color: rgb(211, 21, 21);
+            color: white;
+            padding: 15px;
+            width: 150px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+
+        }
+
+        .main2 button:hover {
+            background-color: rgb(155, 10, 10);
+            color: white;
+            padding: 15px;
+            width: 150px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+
+        }
+
+        .main2 p {
+            margin: 20px;
+            color: rgb(255, 252, 252);
+        }
+
+        .main3 {
+            display: flex;
+            /* border: 1px solid black; */
+        }
+
+        .stage1 {
+            display: flex;
+
+        }
+
+        .stage2 {
+            display: flex;
+        }
+
+        .menu {
+            /* border: 2px solid black; */
+            padding: 0px 150px;
+            line-height: 50px;
+            position: sticky;
+            top: 100px;
+            left: 0;
+            background-color: white;
+
+        }
+
+        .menu p {
+            color: rgb(61, 60, 60);
+        }
+
+        .menu h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .buckets input {
+            padding: 10px 20px;
+            margin: 20px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border: 1px solid rgb(239, 231, 216);
+            /* color: black; */
+
+        }
+
+        .buckets input::placeholder {
+            color: black;
+        }
+
+        .buckets input:hover {
+            padding: 10px 20px;
+            margin: 20px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border: 1px solid wheat;
+        }
+
+        .buckets hr {
+            margin: 10px;
+            padding: 1px;
+            background-color: black;
+            text-decoration: solid;
+            color: black;
+            margin-bottom: 60px;
+        }
+
+        .stage {
+            /* border: 2px solid black; */
+            background-color: whitesmoke;
+        }
+
+        .bucket1 {
+            margin: 20px;
+            line-height: 30px;
+        }
+
+        .bucket2 {
+            margin: 20px;
+            line-height: 30px;
+        }
+
+        .bucket3 {
+            margin: 20px;
+            line-height: 30px;
+        }
+
+        .bucket4 {
+            margin: 20px;
+            line-height: 30px;
+        }
+
+        .stage h1 {
+            padding: 30px;
+        }
+
+        button {
+            padding: 10px 0px;
+            width: 150px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-top-left-radius: 30px;
+            background-color: red;
+            color: white;
+            margin: 40px 10px;
+            border: none;
+        }
+
+        p {
+            color: rgb(98, 95, 95);
+        }
+
+        .sing {
+            border-right: 1px solid rgb(209, 207, 207);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main1">
+        <div class="div1">
+            <div class="img">
+                <img src="kfclogo.svg" alt="">
+            </div>
+            <div class="anc">
+                <a href="">Menu</a>
+                <a href="">Deals</a>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="sing">
+                <a href="">🧞 Sign In</a>
+            </div>
+            <div class="bucket">
+
+                <img src="kfcbac.svg" alt="" width="70px " height="80px">
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="p1">
+            <p>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
+        </div>
+        <div class="butt">
+            <button>Start Order</button>
+        </div>
+    </div>
+    <div class="main3">
+        <div class="shicket">
+            <div class="menu">
+                <img src="kfcline.svg" alt="">
+                <h1> KFC MENU</h1>
+                <p><b>PERI PERI CHICKEN </b> <br>
+                    VALUE SNACKERS <br>
+                    CHICKEN ROLLS <br>
+                    CHICKEN BUCKETS <br>
+                    BIRYANI BUCKETS <br>
+                    BOX MEALS <br>
+                    BURGERS <br>
+                    SNACKS <br>
+                    BEVERAGES
+                </p>
+            </div>
+        </div>
+        <div class="buckets">
+            <input type="search our oder" placeholder="search our order " style="color: black;">
+            <b>
+                <hr>
+            </b>
+            <div class="stage">
+                <h1>PERI PERI CHICKEN</h1>
+                <div class="stage1">
+                    <div class="bucket1">
+                        <img src="kfcbucket1.jpg" alt="" width="450px" height="350px">
+                        <h3>5 Leg Pc & 2 Dips Bucket</h3>
+                        <p> <img src="dot.svg" alt=""> Non veg Serves 2</p>
+                        <h3>₹519.0</h3>
+                        <p>Save Rs. 120 on 5 Peri Peri Leg Pieces, paired with 2 delicious <br> dips (20gm each)</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="bucket2">
+                        <img src="kfcbucket2.jpg" alt="" width="450px" height="350px">
+                        <h3>5 Leg Pc & 2 Dips Bucket</h3>
+                        <p> <img src="dot.svg" alt=""> Non veg Serves 2</p>
+                        <h3>₹519.0</h3>
+                        <p>Save Rs. 120 on 5 Peri Peri Leg Pieces, paired with 2 delicious <br> dips (20gm each)</p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="stage2">
+                    <div class="bucket3">
+                        <img src="kfcbucket3.jpg" alt="" width="450px" height="350px">
+                        <h3>5 Leg Pc & 2 Dips Bucket</h3>
+                        <p> <img src="dot.svg" alt=""> Non veg Serves 2</p>
+                        <h3>₹519.0</h3>
+                        <p>Save Rs. 120 on 5 Peri Peri Leg Pieces, paired with 2 delicious <br> dips (20gm each)</p>
+                        <button>Add to cart</button>
+                    </div>
+                    <div class="bucket4">
+                        <img src="kfcbucket4.jpg" alt="" width="450px" height="350px">
+                        <h3>5 Leg Pc & 2 Dips Bucket</h3>
+                        <p> <img src="dot.svg" alt=""> Non veg Serves 2</p>
+                        <h3>₹519.0</h3>
+                        <p>Save Rs. 120 on 5 Peri Peri Leg Pieces, paired with 2 delicious <br> dips (20gm each)</p>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
